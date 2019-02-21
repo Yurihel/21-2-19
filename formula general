@@ -1,0 +1,23 @@
+function setup() { createCanvas(400, 400); }
+
+function draw() { background(220); 
+                
+var a =1
+var b =4
+var c =-5
+ var x =general1(a,b,c);
+ var y =general2(a,b,c);
+console.log (x)
+ console.log(y)
+}
+function general1(a,b,c){
+  var x
+  x= (-b+ sqrt((b*b)-(4*a*c)))/2*a;
+  return x
+}
+
+function general2(a,b,c){
+  var y
+  y = (-b-sqrt((b*b)-(4*a*c)))/2*a;
+  return y}
+  
